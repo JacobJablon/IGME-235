@@ -1,0 +1,62 @@
+* {
+    /* border: 1px solid blue; */
+    margin: 0rem;
+}
+
+body {
+    
+    margin: 0;
+    background: #36489e;
+    font-family: Alegreya, Helvetica, Arial;
+}
+
+h1 {
+    /* margin: 0rem 0rem 2rem; */
+    color:#DBA00B;
+    text-align: center;
+    font-size: 8rem;
+    font-family: Fondamento;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 2rem;
+    text-shadow: 0px 0px 10px black;
+}
+
+footer {
+    margin: 1rem auto 2rem;
+    text-align: center;
+    color:#DBA00B;
+    font-size: 1.2rem;
+}
+
+#game{
+    cursor: url(../images/crosshair.png) 8 8, crosshair;
+    border: 10px solid #DBA00B;
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+}
+
+a {
+    text-shadow: 1px 1px 1px black;
+}
+
+a:link {
+    color: #CF0606;
+}
+
+a:visited {
+    color: #6e06cf;
+}
+
+a:focus {
+    color: #ce5a5a;
+}
+
+a:hover {
+    color: #d53636;
+}
+
+a:active {
+    color: #4cade1;
+}

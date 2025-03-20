@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty Database</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Rick and Morty Database</h1>
+    </header>
+
+    <section id="searchParameters">
+        <div id="divSearchCategory">
+            Search For:
+
+            <input type="radio" id="character" name="searchCategory" onchange="charOrEp(this)" value="character">
+            <label for="character">Character</label>
+
+            <input type="radio" id="episode" name="searchCategory" onchange="charOrEp(this)" value="episode">
+            <label for="episode">Episode</label>
+
+        </div>
+
+        <div>
+            Filter By:
+            <select id="filter">
+
+            </select>
+        </div>
+
+        <div id="theSearch">
+            <input type="text" id="searchTerm" onchange="changeStoredTerm(this)">
+            <button type="button" id="search">Search</button>
+        </div>
+
+
+        
+
+    </section>
+
+    <h2>Results</h2>
+    <div id="content">
+        <p>No data yet!</p>
+    </div>
+
+    <footer>
+        <a href="doc.html">Documentation</a>
+    </footer>
+</body>
+<script src="main.js"></script>
+
+</html>

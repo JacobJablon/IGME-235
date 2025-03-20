@@ -1,0 +1,185 @@
+body {
+    margin: 1rem;
+}
+
+* {
+    font-family: Helvetica;
+    /* border: 1px solid blue; */
+}
+
+p {
+    margin: 0rem;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+#topDisplay {
+    margin: 0 auto 3rem;
+    position: relative;
+}
+
+#topDisplay img {
+    width: 100%;
+    height: auto;
+    max-width: 1080px;
+}
+
+h1 {
+    color: white;
+    background: #ee3a24;
+    font-size: 5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -5px;
+    margin: 0;
+    position: absolute;
+    width: 320px;
+    height: 88px;
+    left: -14px;
+    z-index: 2;
+}
+
+h1:before {
+    content: " ";
+    padding-left: 10px;
+}
+
+#smallerText {
+    color:white;
+    background: black;
+    font-size: 1rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    position: absolute;
+    left: 188px;
+    top: 75px;
+    z-index: 1;
+}
+
+#coverImg {
+    color:white;
+    font-size: 3.5rem;
+    position: absolute;
+    bottom: -40px;
+    left: 2rem;
+}
+
+#underImg {
+    color: #ee3a24;
+    font-size: 3.5rem;
+    position: absolute;
+    bottom: -100px;
+    left: 2rem;
+}
+
+
+
+
+
+
+
+
+#midDisplay {
+    display: grid;
+    grid-template-areas:
+        "box1 box2 box3 smallBox1"
+        "box1 box2 box3 smallBox2";
+    margin: auto 1rem;
+    position: relative;
+}
+
+#box1 {
+    grid-area: box1;
+}
+
+#box2 {
+    grid-area: box2;
+}
+
+#box3 {
+    grid-area: box3;
+}
+
+#smallBox1 {
+    grid-area: smallBox1;
+    color: white;
+    background: #ee3a24;
+    align-self: flex-end;
+    position: relative;
+}
+
+#smallBox2 {
+    grid-area: smallBox2;
+    background: #a9abae;
+    align-self: stretch;
+    position: relative;
+}
+
+#midDisplay div {
+    margin: 1rem;
+}
+
+#smallBox1, #smallBox2 {
+    padding: 1rem;
+    width: 190px;
+    height: 190px;
+}
+
+#box1::first-letter{
+    float: left;
+    line-height: 45px;
+    font-size: 62px;
+    font-family: Montserrat;
+}
+
+#Bob {
+    margin-top: 1rem;
+    border-top: 2px solid black;
+    font-weight: 600;
+}
+
+#orange {
+    z-index: -2;
+    position: absolute;
+    width: 115%;
+    top: 0px;
+    right: -33px;
+}
+
+
+#grey {
+    z-index: -1;
+    position: absolute;
+    width: 115%;
+    top: 0px;
+    right: -33px;
+}
+
+
+
+
+
+
+
+
+#bottomDisplay {
+    margin: 0 auto;
+}
+
+#bottomDisplay img {
+    position: relative;
+    z-index: -3;
+    width: 100%;
+    height: auto;
+    max-width: 1080px;
+}

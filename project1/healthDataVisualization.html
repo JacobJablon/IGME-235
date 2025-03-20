@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Data Visualization</title>
+    <link rel="stylesheet" href="css/projects.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <section id="navBar">
+            <ul>
+                <li id="JJ"><a href="index.html">JJ</a></li>
+                <li id="subMenu">
+                    <ul id="innerMenu">
+                        <li><a href="index.html#projects">Projects</a></li>
+                        <li><a href="index.html#smallBoxes">Skills/Goals</a></li>
+                        <li><a href="index.html#aboutMe">About Me</a></li>
+                        <li><a href="index.html#contactMe">Contact Me</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </section>
+        <section id="info">
+            <h1 id="title">Health Data Visualization</h1>
+            <img id="image" src="media/HealthDataVisualizationSmallImg.png" alt="Screenshot of JavaScript canvas with small ovals and DOM elements to change how the ovals are displayed">
+            <div id="firstTwoParagraphsFlexWrapper">
+                <p id="descr">
+                    This project takes data on health outcomes from two counties and displays the data in a way that
+                    allows viewers to draw conclusions on health trends within these counties.
+                </p>
+                <p id="tech">
+                    <span>Tech used:</span> JavaScript, Visual Studio Code, Photoshop, and p5.js library
+                </p>
+            </div>
+            <p id="para1">
+                This is my most recent project that I've worked on and it's the project that excites me the most. I find
+                this project so exciting because it can have real world use to promote positive change. The code that I
+                wrote displays a visual representation of health data for two counties in the United States. I began by
+                loading in two JSON files containing data that had been gathered by the CDC and the US Census Bureau.
+                The first JSON file had health data pertaining to Monroe, NY and the second pertained to Fulton, GA.
+                Both JSON files contained an array of object literals, each containing health data on one tract within
+                the county. The code I wrote takes specific health information from the data and displays it on the
+                canvas represented as different sized shapes and in different colors. The shapes are displayed on the
+                canvas relative to one another based on their geographic location. There is also a key on the canvas
+                that explains what each of the shapes represent and explains what the size of each shape represents.
+                This program has a user interface that is shown under the canvas and was created using DOM elements. The
+                UI allows the user to change which county's data is being displayed, what information is being
+                displayed, what portion of the data is displayed, and if labels containing the written out data is
+                visible. Working on this project taught me how to load in external data, use international number
+                formatters, and use math functions such as reduce, map, and lerp.
+            </p>
+            <p id="para2">
+                The part of this project that challenged me the most was just figuring out how to look through a JSON
+                file and take only certain parts of the data for my code. After playing around with it, I was able to
+                understand how to do this though and I have a better understanding of what JSON files really are. This
+                program is so exciting to me because it allows users to easily see things like the connection between
+                the average median income of a tract and the percentage of white people in the population of the same
+                tract. Finding these similarities allows people to easily see certain racial disparities. I enjoyed
+                working on this program because I know that I can create similar ones in the future that lead to real
+                positive change in the world.
+            </p>
+        </section>
+    </div>
+</body>
+
+</html>
